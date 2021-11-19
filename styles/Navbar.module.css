@@ -1,0 +1,26 @@
+.container {
+  /* padding: 10px; */
+  color: blue;
+  border: thick double #32a1ce;
+  display: flex; /* or inline-flex */
+  align-items: center;
+}
+.titletext {
+  color: black;
+  margin-left: 500px;
+}
+.iconmenu {
+  width: 20px;
+  font-size: 20px;
+  margin-left: 400px;
+  color: black;
+}
+.link:hover {
+  font-weight: bold;
+  color: black;
+  padding: 5px;
+}
+.link{
+    color: crimson;
+    padding: 5px;
+}
