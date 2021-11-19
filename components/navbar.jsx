@@ -32,7 +32,7 @@ export default function Navbar() {
         {""}
         <br/>
         <li>
-        <Link href="/api/:id" replace>
+        <Link href="/api/rooms/1" replace>
           <a className={styles.link}>ID-ROOMS</a>
         </Link>
         </li>
