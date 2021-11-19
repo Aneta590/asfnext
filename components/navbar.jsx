@@ -12,7 +12,7 @@ export default function Navbar() {
       <div className={styles.container}>
         <Image
           src={Logo}
-          alt="Picture of the author"
+          alt="ASF Logo"
           width={50}
           height={50}
           placeholder="blur"
