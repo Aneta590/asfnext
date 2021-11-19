@@ -1,16 +1,18 @@
-import Link from "next/link";
+import Image from "next/image";
+import Logo from "../public/images/logo.jpg";
 
 export default function Home() {
   return (
     <div>
       <h3>Home page</h3>
-      <Link href="/blog">
-        <a>BLOG</a>
-      </Link>
-      <br/>
-    <Link href="/api/:id" replace> 
-        <a>ID</a>
-      </Link>
+      <Image
+          src={Logo}
+          alt="ASF Logo"
+          width={50}
+          height={50}
+          placeholder="blur"
+          
+        />
     </div>
   );
 }

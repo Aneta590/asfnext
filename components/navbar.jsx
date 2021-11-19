@@ -16,20 +16,27 @@ export default function Navbar() {
           width={50}
           height={50}
           placeholder="blur"
+          
         />
         <h1 className={styles.titletext}>Maison d'hotes</h1>
 
        
         <button  class="dropbtn" ><TiDocumentText className={styles.iconmenu}/> </button>
         <div class="dropdown-content">
+          <ul> 
+            <li>
         <Link  href="/blog">
           <a className={styles.link}>BLOG</a>
         </Link>
+        </li>
         {""}
         <br/>
+        <li>
         <Link href="/api/:id" replace>
           <a className={styles.link}>ID-ROOMS</a>
         </Link>
+        </li>
+        </ul>
         </div>
       </div>
     </>
