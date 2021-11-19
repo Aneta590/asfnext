@@ -1,20 +1,22 @@
 import Image from "next/image";
 import Park from "../public/images/park.jpg";
 import styles from "../styles/Home.module.css";
+
 export default function Home() {
   return (
     <>
     <h3>Home page</h3>
     <div className={styles.container}>
       
-      <Image
+      <Image 
         src={Park}
         alt="Park area"
         width={500}
         height={400}
+        padding={15} 
         placeholder="blur"
       />
-      <p>
+      <p className={styles.p}>
         There are many variations of passages of Lorem Ipsum available, but the
         majority have suffered alteration in some form, by injected humour, or
         randomised words which don't look even slightly believable. If you are

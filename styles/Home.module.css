@@ -4,6 +4,11 @@
   display: flex;
   align-items: center;
   height: 50vh;
+  text-transform: capitalize;
+  text-align-last: right;
+}
+.p{
+  padding: 20px;
 }
 /* 
 .main {
